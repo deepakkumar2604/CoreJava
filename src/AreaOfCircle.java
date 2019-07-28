@@ -6,15 +6,15 @@ public class AreaOfCircle {
 
 	
 	
-		public  static  double circle(int r) {
+		public  static  double circle(int Radius) {
 			
 			
 			System.out.println("enter the radius");	
 			Scanner in = new Scanner(System.in);
-			r = in.nextInt();	
+			Radius = in.nextInt();	
 			
 			
-			double	A =3.14*r*r;
+			double	A =3.14*Radius*Radius;
 			
 			return A;
 			
